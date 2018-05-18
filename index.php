@@ -1,12 +1,12 @@
 <?php
 session_start();
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 require 'connection.php';
 $app = new \atk4\ui\App('База данных');
 $app->initLayout('Centered');
 
 
- 
+
 
 /*if(isset($_SESSION)){
 $text = $app->add(['Text',$_SESSION['name']]);
