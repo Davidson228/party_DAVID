@@ -9,7 +9,7 @@ class Friends extends \atk4\data\Model {
    parent::init();
    $this->addField('name');
    $this->addField('surname');
-   $this->addField('phone_number',['default'=>+371]);
+   $this->addField('phone_number',['default'=>371]);
    $this->addField('email');
    $this->addField('age');
  //  $this->addField('password',['type']);
